@@ -14,33 +14,65 @@ Skills based review for the Junior Web Developer CSS Introduction lesson.
 - If you finish early, try the *BONUS* questions at the bottom of the file, and/or explore any concepts you come across that you find interesting or want to learn more about!
 - HAVE FUN! :)
 
-### Syntax and Selectors
+### Activity
 
-### Visual Rules
+## Part 1 - Clone the project
 
-1. #about-sec p {width: 75%;}
+* Begin by _forking_ this project into a personal repository.
+  * To do this, click the `Fork` button located at the top right of this page.
+* Navigate to your github profile to find the _newly forked repository_.
+* Clone the repository from **your account** into the directory on your computer that you use to keep your projects (ex. `dev` directory).
+* Open the newly cloned project in a code editor (ex. Visual Studio Code).
 
-### The Box Model
+### Part 2 - Edit the _cloned_ project
 
-1. #about-sec p {margin-left: 1em;}
-2. Convert padding property on ```li a``` rule to shorthand
+* from a text editor (i.e. - Visual Studio Code), select:
+  * `File` > `Add Folder to WorkSpace`
+    * Select the directory you use to store your projects (ex. `dev` directory)
+    * From the text editor,in the directory you use to store your projects (ex. `dev` directory), locate the newly cloned project
+    * Expand the project from the _project explorer (may just be called `explorer`)_
+    * Modify the `index.html` and `style.css` per the directions provided.
 
-### Display and Positioning
+1. Start by linking your css file to your html file
 
-### Colors
+2. Open in browser/live server so you can see your changes
 
-1. Let's change the background of the body. Replace the background-color property with the background-image property. Add a value of linear gradient with ```whitesmoke``` as the first color, and ```rgb(35, 47, 58)``` as the second value.
+3. Let's change the font on the page to be more modern. Go to the Google Fonts website and find the 'Open Sans' font. Select all of the styles, and then paste the stylesheet link in the html, above the local CSS file. (This is linked for you)
 
-### Typography
+4. In the body selector rule, add a font-family property with a value of ```'Open Sans', sans-serif```
 
-1. Let's change the font on the page to be more modern. Go to the Google Fonts website and find the 'Open Sans' font. Select all of the styles, and then paste the stylesheet link in the html, above the local CSS file.
-2. In the body selector rule, add a font-family property with a value of ```'Open Sans', sans-serif```
+5. Let's change the background of the body. Replace the background-color property with the background-image property. Add a value of linear gradient with ```whitesmoke``` as the first color, and ```rgb(35, 47, 58)``` as the second value.
 
-### Flexbox
+6. Convert padding property on ```li a``` rule to shorthand
 
-### CSS Grid
+7. Add a text-align property with a value of center to the same ```li a``` ruleset.
 
-### Transitions
+8. Add Add a text-align property with a value of center to the center-title class selector.
+
+9. Add a flex-direction property with a value of column to the ```section```, ```#about-sec```, and ```figure``` selectors.
+
+10. Add a width property with the value of 50% to the ```figure``` selector.
+
+11. Modify the colors, spacing, and transitions however you like to make the page look more legit!
+
+
+
+### Part 3 - _Pushing_ new changes to repository
+
+* From a _terminal_ navigate to the root directory of the _cloned_ project.
+* From the root directory of the project, execute the following commands:
+  * `git add .`
+    * Add all files in current directory to the staging area
+  * `git commit -m 'I have made an edit to a file!'`
+    * Save all staged changes to local repository
+  * `git push -u origin main`
+    * Push changes from local repository to remote repository
+
+### Part 4 - Submitting assignment
+
+* From the browser, navigate to the _forked_ project from **your** Github account.
+* Click the `Pull Requests` tab.
+* Select `New Pull Request`
 
 ### Resources
 
@@ -48,17 +80,3 @@ Skills based review for the Junior Web Developer CSS Introduction lesson.
 - <https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS>
 
 - <https://www.codecademy.com/learn/learn-intermediate-css/modules/layout-with-flexbox/cheatsheet>
-
-# CSS Debrief
-
-## Questions
-
-1. When using the shorthand flex property, what flex properties is this line of code declaring?
-
-```flex: 0 2 100px;```
-
-2. What two flex properties is the 'flex-flow' shorthand property used for?
-
-```flex-wrap and flex-direction```
-
-3. Nested Flexboxes

@@ -1,6 +1,6 @@
 
 body {
-	background-image: linear-gradient(whitesmoke, rgb(35, 47, 58));
+
 }
 
 /* Navigation Styles */
@@ -17,8 +17,7 @@ nav li {
 li a {
 	display: block;
 	color: white;
-	text-align: center;
-	padding: 30px;
+	padding: 30px 30px 30px 30px;
 	text-decoration: none;
 }
 li a:hover {
@@ -44,18 +43,18 @@ li a:hover {
 section {
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+
 	width: 80%;
 	margin: auto;
 }
 .center-title {
-	text-align: center;
+
 }
 
 /* About Section Styles */
 #about-sec {
 	display: flex;
-	flex-direction: column;
+
 }
 #about-sec div {
 	display: inline-flex;
@@ -65,9 +64,9 @@ section {
 }
 figure {
 	display: flex;
-	flex-direction: column;
-	width: 50%;
+
 }
+
 figure img {
 
 }
