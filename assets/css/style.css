@@ -1,5 +1,7 @@
 
 body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: linear-gradient(120deg, whitesmoke, rgb(35, 47, 58));
 
 }
 
@@ -7,7 +9,7 @@ body {
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #0f1337;
+	background-color: #313242;
 	display: table;
 	width: 100%;
 }
@@ -17,11 +19,12 @@ nav li {
 li a {
 	display: block;
 	color: white;
-	padding: 30px 30px 30px 30px;
+	padding: 30px;
 	text-decoration: none;
+	text-align: center;
 }
 li a:hover {
-	background-color: rgb(40, 39, 39);
+	background-color: rgb(119, 50, 50);
 }
 
 /* Header Styles */
@@ -38,22 +41,26 @@ li a:hover {
 }
 
 #main {
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(80, 65, 65, 0.8);
 }
 section {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 
 	width: 80%;
 	margin: auto;
 }
 .center-title {
+	text-align: center;
 
 }
 
 /* About Section Styles */
 #about-sec {
 	display: flex;
+	flex-direction: column;
+
 
 }
 #about-sec div {
@@ -64,11 +71,12 @@ section {
 }
 figure {
 	display: flex;
-
+	flex-direction: column;
+	width: 50%;
 }
 
 figure img {
-
+opacity: 50;
 }
 
 /* Aside Styles */
@@ -102,7 +110,7 @@ margin-left: 12px;
 }
 
 th {
-border: 2px solid #8c6b48;
+border: 2px solid #130e08;
 }
 
 table {
@@ -111,6 +119,6 @@ margin: 20px auto;
 }
 
 td {
-border: 2px solid #8c6b48;
+border: 2px solid #0a0a09;
 width: 300px;
 }
